@@ -12,7 +12,7 @@ body {
 
 .container {
     width: 80%;
-    margin: 20%;
+    margin: auto;
     overflow: auto;
 }
 
@@ -35,8 +35,12 @@ section.heading {
 .log-in {
     position: absolute;
     right: 0;
+    width: 120px;
+    height: 50px;
     top: 38%;
     /* display: inline; */
+    background-color: aliceblue;
+    border: 2px solid blue;
 }
 
 div.log-in > p {
@@ -45,6 +49,22 @@ div.log-in > p {
     margin: 0;
     left: 40px;
     width: 50px;
+    line-height: 50px;
+    padding-left: 10px;
 }
 
-div.log-in > img {float: left;}
+div.log-in > img {
+    float: left;
+    position: absolute;
+    top: 12px;
+    left: 10px;
+}
+
+section.main-content {
+    float: left;
+    width: 60%;
+}
+
+section.nav-bottom {
+    clear: both;
+}
