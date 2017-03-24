@@ -58,17 +58,22 @@ body {
 }
 
 .logo > a {
+  background-origin: border-box;
   position : absolute;
   right: 0;
   top: 20px;
   color: #d6d6d6;
-  background: #306390;
-  text-decoration: none;
+  background: #06365f;
+  background: url("../images/frame.png") 100%;
+  background-size: 100%;
+  background-position: 100% 100%;
   padding: 5px 15px;
   font-size: 14px;
   font-weight: bold;
   border-radius: 4px;
-  border: 1px outset;
+  /* border: 1px solid #06365f; */
+  /* opacity: 0.5; */
+  background-origin: border-box;
 }
 
 div.log-in > img {
