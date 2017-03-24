@@ -14,6 +14,7 @@ body {
     width: 80%;
     margin: auto;
     overflow: auto;
+    padding-top: 100px;
 }
 
 html {
@@ -23,13 +24,14 @@ html {
 
 section.img-phones {
     float: left;
+    width: 33%;
 }
 
 section.heading {
     float: left;
     position: relative;
-    padding: 20px;
-    padding-right: 100px;
+    padding: 20px 0;
+    width: 100%;
 }
 
 .log-in {
@@ -37,10 +39,11 @@ section.heading {
     right: 0;
     width: 120px;
     height: 50px;
-    top: 38%;
+    top: 28%;
     /* display: inline; */
-    background-color: aliceblue;
+    background-color: cadetblue;
     border: 2px solid blue;
+    color: white;
 }
 
 div.log-in > p {
@@ -62,9 +65,26 @@ div.log-in > img {
 
 section.main-content {
     float: left;
-    width: 60%;
+    width: 100%;
+    padding: 20px;
 }
 
 section.nav-bottom {
     clear: both;
+}
+
+section.img-phones > img {
+    width: 100%;
+}
+
+.right-side {
+    padding-left: 40px;
+    overflow: auto;
+}
+
+.title {
+    font-size: 1.8em;
+    width: 60%;
+    color: navy;
+    font-weight: 500;
 }
