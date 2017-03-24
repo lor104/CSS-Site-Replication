@@ -36,6 +36,11 @@ body {
     width: 45%;
 }
 
+.logo {
+    position: relative;
+    width: 50%;
+}
+
 .log-in {
     position: absolute;
     right: 0;
@@ -48,14 +53,18 @@ body {
     color: white;
 }
 
-div.log-in > a {
-    position: absolute;
-    float: left;
-    margin: 0;
-    left: 40px;
-    width: 50px;
-    line-height: 50px;
-    padding-left: 10px;
+.logo > a {
+  position : absolute;
+  right: 0;
+  top: 20px;
+  color: #d6d6d6;
+  background: #306390;
+  text-decoration: none;
+  padding: 5px 15px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 4px;
+  border: 1px outset;
 }
 
 div.log-in > img {
@@ -65,8 +74,23 @@ div.log-in > img {
     left: 10px;
 }
 
-footer.nav-bottom {
-    clear: both;
+footer {
+    overflow: auto;
+    position: relative;
+    margin: 0 auto;
+    width: 55%;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.nav-bottom {
+    width: 75%;
+    text-align: center;
+    padding-left: 20px;
 }
 
 .right-side {
@@ -74,11 +98,21 @@ footer.nav-bottom {
     overflow: auto;
 }
 
-.title {
+.title h2 {
     font-size: 1.8em;
-    width: 60%;
-    color: navy;
+    width: 75%;
+    color: #06365f;
     font-weight: 500;
-    /* position: absolute; */
-    top: 25%;
+}
+
+.main-content {
+    background: url("../images/frame.png") no-repeat;
+    background-size: 100%;
+    padding: 20px 50px;
+    position: relative;
+    font-size: 22px;
+}
+
+.download img {
+    padding-right: 15px;
 }
