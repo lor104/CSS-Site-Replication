@@ -7,7 +7,7 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-  /* background-color: #06365f; */
+  background-color: #06365f;
 }
 
 .container {
@@ -30,8 +30,9 @@ section.img-phones {
 section.heading {
     float: left;
     position: relative;
-    padding: 20px 0;
+    margin: 20px 0;
     width: 100%;
+    display: inline-block;
 }
 
 .log-in {
@@ -39,9 +40,9 @@ section.heading {
     right: 0;
     width: 120px;
     height: 50px;
-    top: 28%;
+    top: 19%;
     /* display: inline; */
-    background-color: cadetblue;
+    background: cadetblue;
     border: 2px solid blue;
     color: white;
 }
@@ -65,8 +66,10 @@ div.log-in > img {
 
 section.main-content {
     float: left;
-    width: 100%;
+    /* width: 100%; */
     padding: 20px;
+    background-color: white;
+    /* overflow: auto; */
 }
 
 section.nav-bottom {
@@ -87,4 +90,6 @@ section.img-phones > img {
     width: 60%;
     color: navy;
     font-weight: 500;
+    /* position: absolute; */
+    top: 25%;
 }
