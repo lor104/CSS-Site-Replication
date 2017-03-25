@@ -39,10 +39,13 @@ body {
 .logo {
     position: relative;
     width: 50%;
+    padding-left: 10px;
+    padding-top: 10px;
 }
 
 .logo> img {
     padding-left: 5px;
+    /* padding-top: 20px; */
 }
 
 .log-in {
@@ -61,7 +64,7 @@ body {
   background-origin: border-box;
   position : absolute;
   right: 0;
-  top: 20px;
+  top: 25px;
   color: #d6d6d6;
   background: #06365f;
   background: url("../images/frame.png") 100%;
