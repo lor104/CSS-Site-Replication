@@ -38,7 +38,7 @@ body {
 
 .logo {
     position: relative;
-    width: 50%;
+    width: 51%;
     padding-left: 10px;
     padding-top: 10px;
 }
@@ -64,7 +64,7 @@ body {
   background-origin: border-box;
   position : absolute;
   right: 0;
-  top: 25px;
+  top: 35%;
   color: #d6d6d6;
   background: #06365f;
   background: url("../images/frame.png") 100%;
@@ -140,4 +140,9 @@ ul {
 
 .download img {
     padding-right: 15px;
+}
+
+main {
+    width: 100%;
+    /* overflow: auto; */
 }
